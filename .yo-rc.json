@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "module-de-facturation",
+    "libraryId": "42c2cbe2-e694-403f-a5b0-b050f5c710f0",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "module-de-facturation",
+    "solutionShortDescription": "module-de-facturation description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

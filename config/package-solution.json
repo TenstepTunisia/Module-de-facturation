@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "module-de-facturation-client-side-solution",
+    "id": "42c2cbe2-e694-403f-a5b0-b050f5c710f0",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "module-de-facturation description"
+      },
+      "longDescription": {
+        "default": "module-de-facturation description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "module-de-facturation Feature",
+        "description": "The feature that activates elements of the module-de-facturation solution.",
+        "id": "513f9475-32d2-4b70-a97b-771f003a8e29",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/module-de-facturation.sppkg"
+  }
+}

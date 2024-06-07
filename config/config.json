@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "facturation-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/facturation/FacturationWebPart.js",
+          "manifest": "./src/webparts/facturation/FacturationWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FacturationWebPartStrings": "lib/webparts/facturation/loc/{locale}.js"
+  }
+}
