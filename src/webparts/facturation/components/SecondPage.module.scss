@@ -1,0 +1,116 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+
+.divs {
+ margin-top: 30px;
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 40px;
+ margin-left: 20px;
+
+ .value {
+    display: block; /* Ensure the value is on a new line */
+    font-size: 0.9rem; /* Make the font size smaller */
+    color: #272727; /* Change color if needed */; 
+  }
+  h4 {
+    margin: 0; /* Remove margin from h4 to remove space */
+  }
+ .card {
+   flex: 1;
+   background-color: #4D7DBF;
+   color: white;
+   padding: 10px;
+   border-radius: 8px;
+   margin-right: 10px; 
+   overflow: hidden; 
+   height: 45px;
+ }
+ .card h4{
+   margin-top: -2px;
+   font-size: 12px;
+ }
+}
+.button-icon {
+ background-color: transparent; 
+ border: none; 
+ cursor: pointer;
+ padding: 0; 
+}
+
+
+.tablewrapper {
+ width: 97%;
+ padding: 10px;
+ background-color: #fff;
+ border-radius: 8px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ margin-top: 20px; /* Adjust margin as needed */
+ overflow: auto; /* Enable scrolling */
+}
+
+
+
+.customtable {
+ margin-left: 15px;
+ width: auto; 
+ table-layout: auto; 
+}
+
+.customtable th,
+.customtable td {
+ padding: 8px 10px;
+ text-align: center;
+ border-bottom: 1px solid #ddd;
+ white-space: nowrap;
+}
+
+.customtable th {
+ background-color: #4D7DBF;
+ color: #fff;
+}
+
+.customtable tbody tr:hover {
+ background-color: #eaeaea;
+}
+.inputsection {
+ padding: 30px;
+ background-color: #fff;
+ border-radius: 8px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ margin-bottom: 20px;
+ margin-left: 10px;
+ display: flex;
+ justify-content: space-around;
+ width: 90%;
+
+ label {
+   margin-right: 40px;
+ }
+
+ input[type="text"] {
+   width: 900px;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+   box-sizing: border-box;
+ }
+ button {
+   margin-left: 40px;
+   padding: 10px 20px;
+   background-color: #4D7DBF;
+   color: white;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+
+   &:hover {
+     background-color: #326295;
+   }
+ }
+}
+
+
+ .icon {
+   font-size: 20px;
+ }
